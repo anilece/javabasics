@@ -1,0 +1,12 @@
+import java.util.*;
+class Powerpow {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+       System.out.print("enter the number: "); 
+        int base = sc.nextInt();
+        System.out.print("enter the exponential:  ");
+        int  exponent = sc.nextInt();
+        double result = Math.pow(base, exponent);
+        System.out.println("Answer = " + result);
+    }
+}
