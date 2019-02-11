@@ -1,7 +1,6 @@
 import java.util.*;
 class Palindromeornot{
     public static void main(String[] args){
-    System.out.print("enter the number");
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
     int pa=0;
@@ -12,10 +11,9 @@ class Palindromeornot{
 	    pa=(10*pa)+rem;
 	    n=n/10;
 	    }
-        
     if (s==pa)
       System.out.print("yes");
     else
-      System.out.println("no");
+      System.out.print("no");
 }
 }
