@@ -4,7 +4,7 @@ class CheckEvenOdd{
     Scanner sc=new Scanner(System.in);
     int a;
     if (!sc.hasNextInt()) {
-        System.out.println("Invalid Input");
+        System.out.println("invalid");
         sc.next(); 
     }
 	 else{
@@ -18,7 +18,7 @@ class CheckEvenOdd{
 		      }
          }
 	      else{
-		      System.out.print("Invalid Input");
+		      System.out.print("invalid");
 	     }
    }
    
