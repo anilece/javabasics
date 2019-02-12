@@ -4,10 +4,10 @@ class IsAlphabet{
 	Scanner scan=new Scanner(System.in);
 	char ch=scan.next().toLowerCase().charAt(0);
 	if (ch>='a' &&ch<='z'){
-		System.out.println("ALPHABET");
+		System.out.println("Alphabet");
 	}
 	else{
-		System.out.println("NOT AN ALPHABET");
+		System.out.println("No");
 	}
  }
 }
