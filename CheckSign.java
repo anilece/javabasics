@@ -3,7 +3,7 @@ class CheckSign{
  public static void main(String[] args){ 
    Scanner sc=new Scanner(System.in);
    int i;
-   if (!sc.hasNextInt()) {
+   if (!sc.hasNextInt()) {  #to check for invalid input 
         System.out.println("Invalid Input");
         sc.next(); 
     }
@@ -11,13 +11,13 @@ class CheckSign{
         i = sc.nextInt();
    
   
-    if (i>0){
+    if (i>0){  # to check positive number
       System.out.print("Positive");
       }
-   else if(i==0){
+   else if(i==0){ # check zero
       System.out.print("Zero");
       }
-   else{
+   else{  #else negative confirmed
       System.out.print("Negative");
       }
    }	   
